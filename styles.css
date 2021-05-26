@@ -2,13 +2,11 @@
 .navbar-light .navbar-brand {
     color: #FFFF;
 }
-  
 .navbar {
     background-color: #FFFF;
     width: 100%;
     padding: 0;
 }
-  
 .navbar-brand {
     font-size: 20px;
     font-weight: bold;
@@ -16,47 +14,53 @@
     padding: 10px;
     margin-left: 1%;
 }
-
 .nav-button {
     padding-left: 10px;
     padding-right:10px;
 }
-
 .navbar-collapse {
     position: static;
     font-size: 15px;
 }
+/* Main headings - Landing(2), Plots(2 ea), Comparison, Data */
+h2 {
+    color: #008080 ;  
+    font-weight: bolder; 
+    padding-top: 20px;
+}
 
+/* Secondary headings - Comparision(4) */
+h4 {
+    color: #008080 ;  
+    font-weight: bolder; 
+    text-align: center;
+}
+/* Paragraph format */
+p{
+    font-size: 16px; 
+}
 body {
     background: lightgray;
 }
-
-.box {
+/* Main box  - Landing(2), Plots(2 ea), Comparision(4), Data */
+.box1 {
     background:#FFFF;
-    padding: 20px;
+    padding: 10px;
     margin-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
-
-.box-title {
-    color: #008080 ;  
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder; 
-    padding-top: 25px; 
+.col-md-6 {
+    padding: 10px;
+    margin-top: 30px;
+    padding-bottom: 50px;    
 }
-
 .col-sm-4,.col-md-4,.col-lg-4 img {
     width: 150px;
 }
-
 .responsive {
     width: 90%;
     height: auto;
     position:relative;
     left: 5%;
     margin-bottom: 5%;
-}
-
-.img:hover {
-    box-shadow: 0 0 2px 1px rgb(0, 128, 128) ;
 }
