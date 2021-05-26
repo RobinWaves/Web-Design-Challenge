@@ -12,7 +12,7 @@
 .navbar-brand {
     font-size: 20px;
     font-weight: bold;
-    background: #0DC4A1;
+    background: #008080 ;
     padding: 10px;
     margin-left: 1%;
 }
@@ -23,39 +23,40 @@
 }
 
 .navbar-collapse {
-    position: absolute;
-    right: 5%;
+    position: static;
     font-size: 15px;
-}
-
-h2 {
-    color:#0DC4A1;
-    font-size: 25px;
-    font-weight: bold;
-    margin-left: 5%;
-    margin-top: 5%;
 }
 
 body {
     background: lightgray;
 }
 
-.box1 {
+.box {
     background:#FFFF;
     padding: 20px;
     margin-top: 30px;
-} 
+    padding-bottom: 50px;
+}
 
-.box2 {
-    background:#FFFF;
-    padding: 20px;
-    margin-top: 30px;
-} 
+.box-title {
+    color: #008080 ;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    padding-top: 25px; 
+}
 
-.col-sm-3,.col-md-6,.col-lg-4 img {
+.col-sm-4,.col-md-4,.col-lg-4 img {
     width: 150px;
 }
 
+.responsive {
+    width: 90%;
+    height: auto;
+    position:relative;
+    left: 5%;
+    margin-bottom: 5%;
+}
+
 .img:hover {
-    box-shadow: 0 0 2px 1 px rgba(0, 140, 186, 0.5);
+    box-shadow: 0 0 2px 1px rgb(0, 128, 128) ;
 }
