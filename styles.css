@@ -2,6 +2,7 @@
 .navbar-light .navbar-brand {
     color: #FFFF;
 }
+/* Navbar background color and width */
 .navbar {
     background-color: #FFFF;
     width: 100%;
@@ -25,6 +26,11 @@
     font-size: 15px;
     margin-right: 2%;
 }
+
+/* Body background color */
+body {
+    background: lightgray;
+}
 /* Main headings - Landing(2), Plots(2 ea), Comparison, Data */
 h2 {
     font-family: Georgia, serif;
@@ -33,7 +39,6 @@ h2 {
     padding-top: 20px;
     padding-left: 20px;
 }
-
 /* Secondary headings - Comparision(4) */
 h4 {
     font-family: Georgia, serif;
@@ -43,18 +48,16 @@ h4 {
 }
 /* Paragraph format */
 p {
-    font-size: 16px; 
+    font-size: 18px; 
     padding-left: 20px;
 } 
 
-body {
-    background: lightgray;
-}
 /* Main box  - Landing(2), Plots(2 ea), Comparision(4), Data */
 .box1 {
     background:#FFFF;
     padding: 10px;
     margin-top: 20px;
+    /* padding-bottom: 100px; FIXOVERFLOW */
 }
 /* Comparision - Plots(4) */
 .col-lg-6 {
@@ -62,13 +65,11 @@ body {
     margin-top: 20px;
     padding-bottom: 20px;    
 }
-.col-sm-4,.col-md-4,.col-lg-4 img {
-    width: 150px;
+/* Format images */
+.img {
+    max-width: 100%;
 }
-.responsive {
-    width: 90%;
-    height: auto;
-    position:relative;
-    left: 5%;
-    margin-bottom: 5%;
-}
+/* Format images */
+.sm-plot {
+    max-width: 50%;
+} 
