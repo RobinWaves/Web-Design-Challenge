@@ -57,8 +57,9 @@ p {
 }
 /* Comparision - Plots(4) */
 .col-lg-6 {
-    padding-top: 10px; 
-    padding-bottom: 10px;    
+    padding: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;    
 }
 /* Format images */
 .img {
