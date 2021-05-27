@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)file:///C:/Users/robin/OneDrive/Desktop/Web-Design-Challenge/index.html -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Latitude Analysis Dashboard</title>
+  <link rel="stylesheet" href="./Latitude Analysis Dashboard_files/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./Latitude Analysis Dashboard_files/bootstrap.min(1).css">
+  <script src="./Latitude Analysis Dashboard_files/jquery.min.js.download"></script>
+  <script src="./Latitude Analysis Dashboard_files/popper.min.js.download"></script>
+  <script src="./Latitude Analysis Dashboard_files/bootstrap.min.js.download"></script>
+
+  <link rel="stylesheet" href="./Latitude Analysis Dashboard_files/styles.css">
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="file:///C:/Users/robin/OneDrive/Desktop/Web-Design-Challenge/index.html">Latitude</a>
+    <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="file:///C:/Users/robin/OneDrive/Desktop/Web-Design-Challenge/index.html#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="file:///C:/Users/robin/OneDrive/Desktop/Web-Design-Challenge/MaxTemp.html">Maximum Temp</a>
+            <a class="dropdown-item" href="file:///C:/Users/robin/OneDrive/Desktop/Web-Design-Challenge/Humidity.html">Humidity</a>
+            <a class="dropdown-item" href="file:///C:/Users/robin/OneDrive/Desktop/Web-Design-Challenge/Cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="file:///C:/Users/robin/OneDrive/Desktop/Web-Design-Challenge/WindSpeed.html">Wind Speed</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/robin/OneDrive/Desktop/Web-Design-Challenge/comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/robin/OneDrive/Desktop/Web-Design-Challenge/data.html">Data</a>
+        </li>
+  
+      </ul>
+    </div>
+  </nav>
+  <!-- End Navigation -->
+
+  <div class="container">
+    
+    <div class="row">
+
+      <!-- Left Box -->
+      <div class="col-lg-8 col-md-12">
+        <div class="box1">
+          <h2>Summary: Latitude vs. X</h2>
+          <hr>
+          <img src="./Latitude Analysis Dashboard_files/LatVsMaxTemp.png" class="sm-plot float-left" alt="Latitude vs Maximum Temperature">
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at 
+            included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created 
+            as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+        </div>
+      </div>
+
+      <!-- Right Box -->
+      <div class="col-lg-4 col-md-12">
+        <div class="box1">
+          <h2>Visualizations</h2>
+          <hr>
+
+          <div class="container">
+            <div class="row4">
+              <a href="file:///C:/Users/robin/OneDrive/Desktop/Web-Design-Challenge/MaxTemp.html">
+                <img src="./Latitude Analysis Dashboard_files/LatVsMaxTemp.png" class="sm-plot" alt="Latitude vs Temperature">
+              </a>
+              <a href="file:///C:/Users/robin/OneDrive/Desktop/Web-Design-Challenge/Humidity.html">
+                <img src="./Latitude Analysis Dashboard_files/LatVsHumid.png" class="sm-plot float-right" alt="Latitude vs Humidity">
+              </a>
+            </div>
+      
+            <div class="row4">
+              <a href="file:///C:/Users/robin/OneDrive/Desktop/Web-Design-Challenge/Cloudiness.html">
+                <img src="./Latitude Analysis Dashboard_files/LatVsCloud.png" class="sm-plot" alt="Latitude vs Cloudiness">
+              </a>
+              <a href="file:///C:/Users/robin/OneDrive/Desktop/Web-Design-Challenge/WindSpeed.html">
+                <img src="./Latitude Analysis Dashboard_files/LatVsWind.png" class="sm-plot float-right" alt="Latitude vs Wind Speed">
+              </a>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+</body></html>
