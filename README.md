@@ -5,26 +5,20 @@ This assignment consists of a Latitude Analysis Dashboard with Attitude!  A  vis
 
 Individual visualization pages for each plot were created along with navagation between them. These pages contain the visualizations and their corresponding explanations.  There is also a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
-* index.html - landing page
+* index.html - landing page containing an explanation of the project, sidebar link and preview images of each plot
 * comparision.html - comparision of all the plots
 * data.html - data table use to build plots
 
 Visualization:
-* MaxTemp.html
-* Humidity.html
-* Cloudiness.html
-* WindSpeed.html
+* MaxTemp.html - plot and descriptive paragraph, sidebar link and preview images of each plot
+* Humidity.html - plot and descriptive paragraph,sidebar link and preview images of each plot
+* Cloudiness.html - plot and descriptive paragraph, sidebar link and preview images of each plot
+* WindSpeed.html - plot and descriptive paragraph, sidebar link and preview images of each plot
 
 
-The website must consist of 7 pages total, including:
 
-A landing page containing:
-An explanation of the project.
-Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
-Four visualization pages, each with:
-A descriptive title and heading tag.
-The plot/visualization itself for the selected comparison.
-A paragraph describing the plot and its significance.
+
+
 A "Comparisons" page that:
 Contains all of the visualizations on the same page so we can easily visually compare them.
 Uses a Bootstrap grid for the visualizations.
