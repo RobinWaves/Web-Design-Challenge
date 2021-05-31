@@ -18,8 +18,11 @@
 .navbar-collapse {
     position: static;
     font-size: 15px;
-    padding-right: 20px;
+    padding-right: 1%;
     background-color: #FFFF;
+}
+.nav-item a:hover {
+    background-color: lightgray;
 }
 
 /* Body background color */
@@ -68,12 +71,19 @@ p {
 .md-plot {
     max-width: 100%;
 }
-/* Format images - small 4 */
+/* Format images - Visualizations */
 .sm-plot {
     max-width: 50%;
 }
 .row4 {
     display: inherit;
+    margin: 0px -20px 0px -20px;
+    padding: 1px;
+}
+/* Teal border when hover - Landing, Visualizations, Comparison(4) */
+.select:hover {
+    border-style: solid;
+    border-color: #008080;
 }
 
 /* Media Queries */
