@@ -18,6 +18,8 @@ Visualizations:
 * WindSpeed.html - plot and descriptive paragraph, sidebar link and preview images of each plot
 
 Usage: 
+* [Lets go to the Dashboard!](https://RobinWaves.github.io/Web-Design-Challenge)
+* or
 * Copy and paste RobinWaves.github.io/Web-Design-Challenge in your browser window.
 
 References
