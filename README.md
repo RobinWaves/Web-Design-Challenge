@@ -7,7 +7,13 @@ Individual visualization pages for each plot were created along with navagation 
 
 * index.html - landing page
 * comparision.html - comparision of all the plots
-* data.html - data table use to build plots.
+* data.html - data table use to build plots
+
+Visualization:
+* MaxTemp.html
+* Humidity.html
+* Cloudiness.html
+* WindSpeed.html
 
 
 The website must consist of 7 pages total, including:
