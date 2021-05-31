@@ -13,7 +13,7 @@ Individual visualization pages for each plot were created along with navagation 
 
 Visualizations:
 * MaxTemp.html - plot and descriptive paragraph, sidebar link and preview images of each plot
-* Humidity.html - plot and descriptive paragraph,sidebar link and preview images of each plot
+* Humidity.html - plot and descriptive paragraph, sidebar link and preview images of each plot
 * Cloudiness.html - plot and descriptive paragraph, sidebar link and preview images of each plot
 * WindSpeed.html - plot and descriptive paragraph, sidebar link and preview images of each plot
 
