@@ -9,7 +9,7 @@ Individual visualization pages for each plot were created along with navagation 
 * comparision.html - contains all of the visualizations on the same page along with a link to them
 * data.html - responsive data table containing the data used in the visualizations
 * styles.css - cascading style sheet for formatting html files
-* cities_to_html.ipynb - juypyter notebook file used to import cities.csv file to cities.html file
+* cities_to_html.ipynb - juypyter notebook file used to import cities.csv file to output cities.html file
 
 Visualizations:
 * MaxTemp.html - plot and descriptive paragraph, sidebar link and preview images of each plot
