@@ -1,7 +1,7 @@
 # Web-Design-Challenge
 ## Web Visualization Dashboard (Latitude)
 
-This assignment consists of a Latitude Analysis Dashboard with Attitude!  A  visualization dashboard website was created using visualizations created in a past assignment (see python-api-challenge). 
+This assignment consists of a Latitude Analysis Dashboard with attitude!  A  visualization dashboard website was created using visualizations created in a past assignment (see python-api-challenge). 
 
 Individual visualization pages for each plot were created along with navagation between them. These pages contain the visualizations and their corresponding explanations.  There is also a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
